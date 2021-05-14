@@ -1,5 +1,5 @@
 module.exports = (target,defaultValue = null)=>{
-  let result
+  var result
   try{
     result = eval(target)
   }catch(e) {
